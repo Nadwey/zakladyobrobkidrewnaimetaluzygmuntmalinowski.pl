@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.74842d03.css",
-    "main.js": "/static/js/main.16c3c0ef.js",
+    "main.js": "/static/js/main.0a1dbd95.js",
     "static/media/klient-4.png": "/static/media/klient-4.9016e1e2c12d80a925cd.png",
+    "static/media/construction-worker.png": "/static/media/construction-worker.58d80cf61dfd69b4c641.png",
     "static/media/praca-drewno-1.jpg": "/static/media/praca-drewno-1.f1d779878c70293967c1.jpg",
     "static/media/klient-2.jpg": "/static/media/klient-2.383ad09851cb8c9cc85b.jpg",
     "static/media/obrobka-metalu-2.jpg": "/static/media/obrobka-metalu-2.9a9d9332d3796913beee.jpg",
@@ -16,10 +17,10 @@
     "static/media/tnie-drewno-2.jpg": "/static/media/tnie-drewno-2.ab1fb485d820d3f77142.jpg",
     "index.html": "/index.html",
     "main.74842d03.css.map": "/static/css/main.74842d03.css.map",
-    "main.16c3c0ef.js.map": "/static/js/main.16c3c0ef.js.map"
+    "main.0a1dbd95.js.map": "/static/js/main.0a1dbd95.js.map"
   },
   "entrypoints": [
     "static/css/main.74842d03.css",
-    "static/js/main.16c3c0ef.js"
+    "static/js/main.0a1dbd95.js"
   ]
 }
