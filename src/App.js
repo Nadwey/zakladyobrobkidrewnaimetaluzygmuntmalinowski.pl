@@ -17,6 +17,7 @@ import obrobkaMetalu2 from "./img/obrobka-metalu-2.jpg";
 import obrobkaMetalu3 from "./img/obrobka-metalu-3.jpg";
 import obrobkaMetalu4 from "./img/obrobka-metalu-4.jpg";
 import pasja from "./img/pasja.jpg";
+import constructionWorker from "./img/construction-worker.png";
 
 function App() {
     const [embla, setEmbla] = useState(null);
@@ -157,6 +158,7 @@ function App() {
                         <li>Telefon - +48 155-DREWNO-METAL</li>
                         <li>Email - zygmuntmalinowski@zakladyobrobkidrewnaimetaluzygmuntmalinowski.pl</li>
                     </ul>
+                    <img alt="Construction worker" src={constructionWorker} />
                 </div>
             </div>
         </div>
