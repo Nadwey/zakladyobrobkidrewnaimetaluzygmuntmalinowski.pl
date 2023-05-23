@@ -142,6 +142,7 @@ function App() {
                         <li>Stuł - 30zł</li>
                         <li>Dwupiętrowa łódź ze stalowymi skrzydłami - Łódź mieszkalna zbudowana z drewna i wyposażona w skrzydła ze stali nierdzewnej - 200 000 złotych.</li>
                         <li>Skoda Superb Skoda Superb III 190 KM 4x4 DSG L&K - 110 000 złotych.</li>
+                        <li>Tarcica obrzynana 25mm,32mm,50mm - 500 zł</li>
                     </ul>
                     <div className={styles.vCenter}>
                         <span
