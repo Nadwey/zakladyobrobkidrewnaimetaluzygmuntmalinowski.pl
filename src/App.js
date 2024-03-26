@@ -2,58 +2,27 @@ import styles from "./App.module.css";
 import { Carousel } from "@mantine/carousel";
 import { useEffect, useState } from "react";
 import { Opinia } from "./Opinia";
-import { Group } from "@mantine/core";
+import { Center, Group } from "@mantine/core";
 
 // images
-// import tnieDrewno1 from "./img/tnie-drewno-1.jpg";
-import tnieDrewno2 from "./img/tnie-drewno-2.jpg";
+import tnieDrewno1 from "./img/tnie-drewno-1.jpg";
+import szczesliwyCzlowiek from "./img/szczesliwy-czlowiek.webp";
 import starosc1 from "./img/starosc-1.webp";
 import klient1 from "./img/klient-1.jpg";
 import klient2 from "./img/klient-2.jpg";
 import klient3 from "./img/klient-3.jpg";
 import klient4 from "./img/klient-4.png";
 import obrobkaMetalu1 from "./img/obrobka-metalu-1.jpeg";
-import obrobkaMetalu2 from "./img/obrobka-metalu-2.jpg";
-import obrobkaMetalu3 from "./img/obrobka-metalu-3.jpg";
-import obrobkaMetalu4 from "./img/obrobka-metalu-4.jpg";
 import pasja from "./img/pasja.jpg";
 import constructionWorker from "./img/construction-worker.png";
 
 function App() {
-    const [embla, setEmbla] = useState(null);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            console.log("weg");
-            console.log(embla);
-            if (embla) {
-                embla.scrollNext();
-            }
-        }, 6000);
-        return () => clearInterval(interval);
-    }, [embla]);
-
     return (
-        <div>
-            <div className={styles.carouselContainer}>
-                <Carousel loop getEmblaApi={setEmbla} draggable={false} withControls={false} height="100%" sx={{ flex: 1 }}>
-                    <Carousel.Slide>
-                        <img alt="tnie drewno" className={styles.carouselImage} src={tnieDrewno2} />
-                    </Carousel.Slide>
-                    <Carousel.Slide>
-                        <img alt="obróbka metalu" className={styles.carouselImage} src={obrobkaMetalu2} />
-                    </Carousel.Slide>
-                    <Carousel.Slide>
-                        <img alt="obróbka metalu" className={styles.carouselImage} src={obrobkaMetalu3} />
-                    </Carousel.Slide>
-                    <Carousel.Slide>
-                        <img alt="obróbka metalu" className={styles.carouselImage} src={obrobkaMetalu4} />
-                    </Carousel.Slide>
-                </Carousel>
-            </div>
+        <>
+            <img src={tnieDrewno1} className={styles.bgImage} />
             <div className={styles.topContainer}>
                 <div className={styles.zygmuntZdjecie} />
-                <div className={styles.opis}>Witaj w zakładach obróbki drewna i metalu Zygmunta Malinowskiego!</div>
+                <div className={styles.opis}>Welcome to the Zygmunt Malinowski's wood and metal processing plant! You won't be disappointed!</div>
             </div>
             <div className={styles.content}>
                 <div
@@ -64,8 +33,8 @@ function App() {
                     <div className={styles.imageAndText}>
                         <img alt="starość" src={starosc1} />
                         <div>
-                            W 1954 r., jeden z naszych przodków, Pan Albert, zaczął z nudów rzeźbić w kawałku pnia kamieniem, po chwili dostrzegł w drzewie pewien tajemniczy metalowy przedmiot, zaczął
-                            ku mu kopać i okazało się że to jakiś niewybuch, odciął sobie 2 palce.
+
+                            In the year 1954, one of our ancestors, Mr. Albert, started carving a wooden piece out of boredom. Then it exploded because it was bomb and he lost 2 fingers.
                         </div>
                     </div>
                     <div className={styles.imageAndText}>
@@ -88,25 +57,29 @@ function App() {
                                 fontSize: "3rem",
                             }}
                         >
-                            Multum zadowolonych klientów
+                            Many satisfied clients
                         </span>
                     </div>
-                    <Group position="center">
-                        <Opinia
-                            avatar={klient2}
-                            opis="Obróbka metalu je wprost niesamowita! To tak skuteczne i pierwotne rozwiązanoe, które naprawdę rozczuli! Kiedy czięcie metelu zaczyna się, czuję iskry ekscytacji! Jest tak wiele wkładu i precyzji, że jestem w jelowej zaziądzie!"
-                        />
-                        <Opinia opis="Serwis godny polecenia, właściciel bardzo pomocny, teraz oszukuje obce dzieci moim nowym stołem z miejscem na schowanie partnera!" />
-                        <Opinia avatar={klient1} opis="Polecam" />
-                        <Opinia
-                            avatar={klient3}
-                            opis="Odkurzacz bardzo dobry, godny polecenia. Rzadko się zdarza żeby w tym przedziale cenowym kupić odkurzacz z taką ilością osprzętu. Posiada wszystkie końcówki do odkurzania kazdej powierzchni. Filtr Hepa 13 zapewnia w czasie pracy czyste powietrze bez kurzu, roztoczy i alergenów. Polecam"
-                        />
-                        <Opinia
-                            avatar={klient4}
-                            opis="Jestem zachwycony jakością usług świadczonych przez zakłady zajmujące się obróbką metalu i drewna. Ich profesjonalizm i precyzja w pracy są niezwykłe. Obrabiając drewno i metal, potrafią stworzyć prawdziwe arcydzieła, które zachwycają swoją estetyką i funkcjonalnością."
-                        />
-                    </Group>
+                    <Center>
+                        <Group>
+
+
+                            <Opinia
+                                avatar={szczesliwyCzlowiek} 
+                                opis=""
+                            />
+                            <Opinia opis="The metal processing is simply amazing! It's such an effective and primal solution that truly moves me! When metal cutting begins, I feel sparks of excitement! There's so much input and precision involved that I'm in a state of eager anticipation!" />
+                            <Opinia avatar={klient1} opis="I love asbestos." />
+                            <Opinia
+                                avatar={klient3}
+                                opis="My Dyson hand held vacuum cleaner stopped working after many years of good use, and I was looking to replace it when I came upon the VacLife Handheld Vacuum at a fraction of the price of a new Dyson, so I decided to give it a go. It does everything we want it for (mainly to pick up dust and crumbs in our kitchen) for a very low price."
+                            />
+                            <Opinia
+                                avatar={klient4}
+                                opis="Jestem zachwycony jakością usług świadczonych przez zakłady zajmujące się obróbką metalu i drewna. Ich profesjonalizm i precyzja w pracy są niezwykłe. Obrabiając drewno i metal, potrafią stworzyć prawdziwe arcydzieła, które zachwycają swoją estetyką i funkcjonalnością."
+                            />
+                        </Group>
+                    </Center>
                     <br />
                     <br />
                     <br />
@@ -118,7 +91,7 @@ function App() {
                                 fontStyle: "italic",
                             }}
                         >
-                            "Tworzymy piękno w drewnie i stalowej doskonałości!"
+                            "We create beauty in wood and steel perfection!"
                         </span>
                     </div>
                     <img alt="pasja" src={pasja} />
@@ -132,7 +105,7 @@ function App() {
                                 fontSize: "3rem",
                             }}
                         >
-                            Usługi
+                            Services
                         </span>
                     </div>
                     <br />
@@ -140,10 +113,10 @@ function App() {
                     <br />
                     <br />
                     <ul>
-                        <li>Stuł - 30zł</li>
-                        <li>Dwupiętrowa łódź ze stalowymi skrzydłami - Łódź mieszkalna zbudowana z drewna i wyposażona w skrzydła ze stali nierdzewnej - 200 000 złotych.</li>
-                        <li>Skoda Superb Skoda Superb III 190 KM 4x4 DSG L&K - 110 000 złotych.</li>
-                        <li>Tarcica obrzynana 25mm,32mm,50mm - 500 zł</li>
+                        <li>Tabłe - 30zł</li>
+                        <li>A two-story boat with steel wings - A residential boat built from wood and equipped with stainless steel wings. - 200 000zł.</li>
+                        <li>Skoda Superb Skoda Superb III 190 KM 4x4 DSG L&K - 110 000zł.</li>
+                        <li>Planed timber 25mm,32mm,50mm - 500 zł</li>
                     </ul>
                     <div className={styles.vCenter}>
                         <span
@@ -151,17 +124,17 @@ function App() {
                                 fontSize: "3rem",
                             }}
                         >
-                            Kontakt
+                            Contant Us
                         </span>
                     </div>
                     <ul>
-                        <li>Telefon - +48 155-DREWNO-METAL</li>
+                        <li>Phone - +48 155-WOOD-METAL</li>
                         <li>Email - zygmuntmalinowski@zakladyobrobkidrewnaimetaluzygmuntmalinowski.pl</li>
                     </ul>
                     <img alt="Construction worker" src={constructionWorker} />
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 

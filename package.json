@@ -3,12 +3,10 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@emotion/react": "^11.11.0",
-        "@mantine/carousel": "^6.0.11",
-        "@mantine/core": "^6.0.11",
-        "@mantine/hooks": "^6.0.11",
-        "embla-carousel-autoplay": "^8.0.0-rc04",
-        "embla-carousel-react": "^7.1.0",
+        "@mantine/core": "^7.7.0",
+        "@mantine/hooks": "^7.7.0",
+        "embla-carousel-autoplay": "^8.0.0",
+        "embla-carousel-react": "^8.0.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-scripts": "5.0.1"
@@ -39,6 +37,6 @@
         ]
     },
     "devDependencies": {
-        "prettier": "^2.8.8"
+        "prettier": "^3.2.5"
     }
 }
