@@ -1,6 +1,4 @@
 import styles from "./App.module.css";
-import { Carousel } from "@mantine/carousel";
-import { useEffect, useState } from "react";
 import { Opinia } from "./Opinia";
 import { Center, Group } from "@mantine/core";
 
