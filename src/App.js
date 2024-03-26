@@ -7,7 +7,6 @@ import tnieDrewno1 from "./img/tnie-drewno-1.jpg";
 import szczesliwyCzlowiek from "./img/szczesliwy-czlowiek.webp";
 import starosc1 from "./img/starosc-1.webp";
 import klient1 from "./img/klient-1.jpg";
-import klient2 from "./img/klient-2.jpg";
 import klient3 from "./img/klient-3.jpg";
 import klient4 from "./img/klient-4.png";
 import obrobkaMetalu1 from "./img/obrobka-metalu-1.jpeg";
@@ -17,7 +16,7 @@ import constructionWorker from "./img/construction-worker.png";
 function App() {
     return (
         <>
-            <img src={tnieDrewno1} className={styles.bgImage} />
+            <img alt="hehe" src={tnieDrewno1} className={styles.bgImage} />
             <div className={styles.topContainer}>
                 <div className={styles.zygmuntZdjecie} />
                 <div className={styles.opis}>Welcome to the Zygmunt Malinowski's wood and metal processing plant! You won't be disappointed!</div>
