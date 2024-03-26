@@ -4,10 +4,13 @@ import "./index.css";
 import App from "./App";
 import { MantineProvider } from "@mantine/core";
 
+import '@mantine/core/styles.css';
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
-        <MantineProvider withGlobalStyles withNormalizeCSS>
+        <MantineProvider>
             <App />
         </MantineProvider>
     </React.StrictMode>
