@@ -73,7 +73,7 @@ function App() {
                             />
                             <Opinia
                                 avatar={klient4}
-                                opis="Jestem zachwycony jakością usług świadczonych przez zakłady zajmujące się obróbką metalu i drewna. Ich profesjonalizm i precyzja w pracy są niezwykłe. Obrabiając drewno i metal, potrafią stworzyć prawdziwe arcydzieła, które zachwycają swoją estetyką i funkcjonalnością."
+                                opis="I am delighted with the quality of services provided by metal and wood processing plants. Their professionalism and precision in work are extraordinary. By processing wood and metal, they can create real masterpieces that delight with their aesthetics and functionality."
                             />
                         </Group>
                     </Center>
