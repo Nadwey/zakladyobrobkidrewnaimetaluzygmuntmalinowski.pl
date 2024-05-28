@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.a787014e.css",
-    "main.js": "/static/js/main.2ca58c7f.js",
-    "static/media/klient-4.png": "/static/media/klient-4.9016e1e2c12d80a925cd.png",
-    "static/media/construction-worker.png": "/static/media/construction-worker.58d80cf61dfd69b4c641.png",
-    "static/media/praca-drewno-1.jpg": "/static/media/praca-drewno-1.f1d779878c70293967c1.jpg",
-    "static/media/tnie-drewno-1.jpg": "/static/media/tnie-drewno-1.4ee20ce13201d27aea5f.jpg",
-    "static/media/Quicksand.ttf": "/static/media/Quicksand.6829efb7827c490befe6.ttf",
-    "static/media/pasja.jpg": "/static/media/pasja.3fd2bd9dfbc9dd5c9602.jpg",
-    "static/media/starosc-1.webp": "/static/media/starosc-1.d024f449953bd11e6bb6.webp",
-    "static/media/obrobka-metalu-1.jpeg": "/static/media/obrobka-metalu-1.51347aee30f9eefb8fb2.jpeg",
-    "static/media/szczesliwy-czlowiek.webp": "/static/media/szczesliwy-czlowiek.130edb82c4c6161143c3.webp",
-    "static/media/klient-1.jpg": "/static/media/klient-1.dfb8854e492fdf96624a.jpg",
-    "index.html": "/index.html",
-    "main.a787014e.css.map": "/static/css/main.a787014e.css.map",
-    "main.2ca58c7f.js.map": "/static/js/main.2ca58c7f.js.map"
+    "main.css": "./static/css/main.84345dda.css",
+    "main.js": "./static/js/main.651f8073.js",
+    "static/media/klient-4.png": "./static/media/klient-4.9016e1e2c12d80a925cd.png",
+    "static/media/construction-worker.png": "./static/media/construction-worker.58d80cf61dfd69b4c641.png",
+    "static/media/praca-drewno-1.jpg": "./static/media/praca-drewno-1.f1d779878c70293967c1.jpg",
+    "static/media/tnie-drewno-1.jpg": "./static/media/tnie-drewno-1.4ee20ce13201d27aea5f.jpg",
+    "static/media/Quicksand.ttf": "./static/media/Quicksand.6829efb7827c490befe6.ttf",
+    "static/media/pasja.jpg": "./static/media/pasja.3fd2bd9dfbc9dd5c9602.jpg",
+    "static/media/starosc-1.webp": "./static/media/starosc-1.d024f449953bd11e6bb6.webp",
+    "static/media/obrobka-metalu-1.jpeg": "./static/media/obrobka-metalu-1.51347aee30f9eefb8fb2.jpeg",
+    "static/media/szczesliwy-czlowiek.webp": "./static/media/szczesliwy-czlowiek.130edb82c4c6161143c3.webp",
+    "static/media/klient-1.jpg": "./static/media/klient-1.dfb8854e492fdf96624a.jpg",
+    "index.html": "./index.html",
+    "main.84345dda.css.map": "./static/css/main.84345dda.css.map",
+    "main.651f8073.js.map": "./static/js/main.651f8073.js.map"
   },
   "entrypoints": [
-    "static/css/main.a787014e.css",
-    "static/js/main.2ca58c7f.js"
+    "static/css/main.84345dda.css",
+    "static/js/main.651f8073.js"
   ]
 }
