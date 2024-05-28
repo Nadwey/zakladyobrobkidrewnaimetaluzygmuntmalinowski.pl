@@ -2,6 +2,7 @@
     "name": "zakladyobrobkidrewnaimetaluzygmuntmalinowski",
     "version": "0.1.0",
     "private": true,
+    "homepage": ".",
     "dependencies": {
         "@mantine/core": "^7.7.0",
         "@mantine/hooks": "^7.7.0",
